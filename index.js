@@ -130,7 +130,7 @@
         _this.data.secondCard.classList.remove('flip')
         _this.data.lockBoard = false
         _this.resetCard()
-      }, 1500);
+      }, 500);
     },
     shuffle:(function(){
       const cards = document.querySelectorAll('.memory-card')
